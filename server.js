@@ -322,11 +322,11 @@ app.put('/admin/addcatogary',(req,res)=>{
   })
 })
 
-app.delete('/admin/coupondelete',(req,res)=>{
-  res.send({
-    "message": "coupon succefully deleted"
-  })
-})
+// app.delete('/admin/coupondelete',(req,res)=>{
+//   res.send({
+//     "message": "coupon succefully deleted"
+//   })
+// })
 
 const port = 3000;
 
